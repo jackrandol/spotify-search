@@ -1,0 +1,94 @@
+* {
+    /* background-color: wheat; */
+}
+
+input {
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    font-family: sans-serif;
+    left: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    border: solid red 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+select {
+    background-color: white;
+    height: 42px;
+    width: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: solid red 1px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#submit-button {
+    background-color: red;
+    height: 42px;
+    width: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: solid red 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+
+}
+
+.images {
+    width: 175px;
+    height: 175px;
+    border-radius: 5px;
+    object-fit: cover;
+    display: block;
+}
+
+.moreButton {
+    background-color: red;
+    height: 42px;
+    width: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: solid red 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    z-index: 5;
+    visibility: hidden;
+    margin-left: 15px;
+}
+
+#results-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titleImageBox {
+    height: 215px;
+    width: 215px;
+    border: solid red 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    font-family: sans-serif;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-around;
+    background-color: white;
+    filter: drop-shadow(5px 5px 5px red);
+}
+
+.hidden {
+    visibility: hidden;
+}
